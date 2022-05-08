@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useState} from 'react';
 import useWeather from '../hooks/useHTTP';
 
 const Weather = () => {
@@ -19,7 +19,7 @@ const Weather = () => {
             </div>
             <div className='time-description'>
                 <div>
-                    <img src={`http://openweathermap.org/img/wn/${icon}@2x.png`} />
+                    <img src={`http://openweathermap.org/img/wn/${icon}@2x.png`} alt="climate"/>
                 </div>
                 <div className='time-container'>
                     <div>
